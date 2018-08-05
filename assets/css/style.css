@@ -1,0 +1,115 @@
+h1 {
+    text-align: center;
+    padding: top 120px;
+    padding-bottom: 20px;
+    border-style: double black;
+    margin: 20px 0 px 20px;
+}
+
+p {
+    justify-content: center;
+    border-style: double black;
+    text-align: center;
+}
+
+body {
+   background-color: bisque;
+}
+.eighty_pic {
+    height: 1000px;
+    width: 500px;
+    float: right;
+    position: relative;
+    padding-top: 0px;
+    padding-bottom: 600px;
+}
+
+/* .eighty_pic { 
+     height: 700px;  
+     width: 400px; 
+     overflow: auto; 
+     object-position: 0ch;
+}   */
+ 
+
+.doo-dad {
+    padding: 4px;
+    height: 50px; 
+    width: 100px; 
+    margin: 20px 0px 20px;
+    
+}  
+
+#startButton {
+    border-style: double black;
+}
+
+.clockcontainer {
+    height: 100px;
+    width: 400px;
+    text-align: center;
+    background: #00ecb9;
+    font-family: sans-serif;
+    font-weight: 100;
+    border-style: double black; 
+}
+
+h2 {
+    color: #396;
+    font-weight: 100;
+    font-size: 20px;
+    margin: 20px 0px 20px;
+    padding-top: 4px;
+}
+
+#clockdiv {
+    font-family: sans-serif;
+    color:#fff;
+    display: inline-block;
+    font-weight: 50;
+    text-align: horizontal;
+    font-size: 10px;
+}
+
+#clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    background: #00BF96;
+    display: inline-block;
+}
+
+#clockdiv div > span{
+    padding: 10px;
+    border-radius: 3px;
+    background: #00816A;
+    display: inline-block;
+    width: 80px;
+    height: 70px;
+    font-size: 20px;
+}
+
+.smalltext{
+    padding-top: 5px;
+    font-size: 30px;
+}
+
+ #scoreBoard { 
+    height: 100px;
+    width: 200px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    float: right; 
+}  
+
+ #questionBox {  
+    font: bold; 
+     border-style: double black;
+     background-color: yellowgreen;
+     height: 700px;
+     width: 500px;
+     justify-content: center;
+     padding-bottom: 10px;
+     /* float: right; */
+ } 
